@@ -1,7 +1,7 @@
-import numpy as np
+# -*- coding: utf-8 -*-
+
 import matplotlib.pyplot as plt
 import pandas as pd
-import statsmodels.formula.api as sm
 from sklearn.preprocessing import Imputer, LabelEncoder, OneHotEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
