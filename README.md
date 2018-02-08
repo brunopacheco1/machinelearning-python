@@ -8,8 +8,14 @@ The overall idea of regression is to examine two things:
 1. does a set of predictor variables do a good job in predicting an outcome (dependent) variable?
 2. Which variables in particular are significant predictors of the outcome variable, and in what way do they–indicated by the magnitude and sign of the beta estimates–impact the outcome variable?
 
-### Linear Regression (one variable)
+### Linear Regression (One or more variables)
 
-The simplest form of the regression equation with one dependent and one independent variable is defined by the formula y = c + b*x, where y = estimated dependent variable score, c = constant, b = regression coefficient, and x = score on the independent variable.
+The simplest form of the regression equation with one dependent and one or more independent variables, defined by the formula below, where y = estimated dependent variable score, c = constant, tetha = regression coefficient, and x = score on the independent variable.
 
-You can find a example of one simple variable of linear regression on file *linear_regression.py*.
+- One Variable Linear Regression on file **linear_regression.py**;
+
+- One Variable Linear Regression on file **multiple_linear_regression.py**;
+
+### Polynomial Regression
+
+### Support Vector Regression (SVR)
