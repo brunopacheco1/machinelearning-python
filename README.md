@@ -16,8 +16,10 @@ The simplest form of the regression equation with one dependent and one or more 
 
 - One Variable Linear Regression on file **linear_regression.py**;
 
-- One Variable Linear Regression on file **multiple_linear_regression.py**;
+- Multiple Variables Linear Regression on file **multiple_linear_regression.py**;
 
 ### Polynomial Regression
 
 ### Support Vector Regression (SVR)
+
+### Decision Tree Regression
