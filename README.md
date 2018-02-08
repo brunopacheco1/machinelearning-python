@@ -23,3 +23,5 @@ The simplest form of the regression equation with one dependent and one or more 
 ### Support Vector Regression (SVR)
 
 ### Decision Tree Regression
+
+### Random Forest Regression
