@@ -12,6 +12,8 @@ The overall idea of regression is to examine two things:
 
 The simplest form of the regression equation with one dependent and one or more independent variables, defined by the formula below, where y = estimated dependent variable score, c = constant, tetha = regression coefficient, and x = score on the independent variable.
 
+![Linear Regression Equation](/images/linear_regression_equation.png)
+
 - One Variable Linear Regression on file **linear_regression.py**;
 
 - One Variable Linear Regression on file **multiple_linear_regression.py**;
