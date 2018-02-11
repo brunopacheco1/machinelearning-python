@@ -12,7 +12,7 @@ labelizer = LabelEncoder()
 oneHotEncoder = OneHotEncoder(categorical_features=[3])
 
 #Importing
-dataset = pd.read_csv('./data/startups.csv')
+dataset = pd.read_csv('../data/startups.csv')
 
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, dataset.columns.size - 1].values

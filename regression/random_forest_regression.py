@@ -6,7 +6,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 
 #Importing
-dataset = pd.read_csv('./data/position_salaries.csv')
+dataset = pd.read_csv('../data/position_salaries.csv')
 X = dataset.iloc[:, 1:2].values
 y = dataset.iloc[:, 2].values
 
