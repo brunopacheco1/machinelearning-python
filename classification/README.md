@@ -11,8 +11,24 @@ In statistics, logistic regression, or logit regression, or logit model[1] is a 
 
 - One Variable Linear Regression on file **logistic_regression.py**;
 
+### K-Nearest Neighbors
+
+In pattern recognition, the k-nearest neighbors algorithm (k-NN) is a non-parametric method used for classification and regression.[1] In both cases, the input consists of the k closest training examples in the feature space. The output depends on whether k-NN is used for classification or regression:
+
+In k-NN classification algorithm, the output is a class membership. An object is classified by a majority vote of its neighbors, with the object being assigned to the class most common among its k nearest neighbors (k is a positive integer, typically small). If k = 1, then the object is simply assigned to the class of that single nearest neighbor.
+
+- One Variable Linear Regression on file **knn.py**;
+
+### Support vector machine
+
+A support vector machine constructs a hyperplane or set of hyperplanes in a high- or infinite-dimensional space, which can be used for classification, regression, or other tasks like outliers detection. Intuitively, a good separation is achieved by the hyperplane that has the largest distance to the nearest training-data point of any class (so-called functional margin), since in general the larger the margin the lower the generalization error of the classifier.
+
+- One Variable Linear Regression on file **svm.py**;
+
 ### Pros and cons about regression algorithms
 
 Algorithm | Pros | Cons
 ------------ | ------------- | -------------
 Logistic Regression | Update here. | Update here.
+K-Nearest Neighbors | Update here. | Update here.
+Support Vector Machine | Update here. | Update here.
