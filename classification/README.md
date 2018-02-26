@@ -25,6 +25,12 @@ A support vector machine constructs a hyperplane or set of hyperplanes in a high
 
 - One Variable Linear Regression on file **svm.py**;
 
+### Kernel SVM
+
+Kernel methods owe their name to the use of kernel functions, which enable them to operate in a high-dimensional, implicit feature space without ever computing the coordinates of the data in that space, but rather by simply computing the inner products between the images of all pairs of data in the feature space. This operation is often computationally cheaper than the explicit computation of the coordinates. This approach is called the "kernel trick". Kernel functions have been introduced for sequence data, graphs, text, images, as well as vectors.
+
+- One Variable Linear Regression on file **kernel_svm.py**;
+
 ### Pros and cons about regression algorithms
 
 Algorithm | Pros | Cons
@@ -32,3 +38,4 @@ Algorithm | Pros | Cons
 Logistic Regression | Update here. | Update here.
 K-Nearest Neighbors | Update here. | Update here.
 Support Vector Machine | Update here. | Update here.
+Kernel SVM | Update here. | Update here.
