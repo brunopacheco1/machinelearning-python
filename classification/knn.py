@@ -10,7 +10,7 @@ from sklearn.metrics import confusion_matrix
 from matplotlib.colors import ListedColormap
 
 #Importing
-dataset = pd.read_csv('../data/social_network_ads.csv')
+dataset = pd.read_csv('./data/social_network_ads.csv')
 X = dataset.iloc[:, [2,3]].values
 y = dataset.iloc[:, 4].values
 
