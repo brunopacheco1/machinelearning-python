@@ -40,10 +40,12 @@ classifier.add(Dense(1, kernel_initializer = "uniform", activation = "sigmoid"))
 classifier.compile(optimizer = "adam", loss = "binary_crossentropy", metrics = ["accuracy"])
 
 # Fitting
-classifier.fit(X_train, y_train, batch_size = 10, epochs = 100)
+classifier.fit(X_train, y_train, batch_size = 10, epochs = 10)
     
 # Predicting
 y_predicted = classifier.predict(X_test)
+
+y_predicted = (y_predicted > 0.5)
 
 # Confusion Matrix
 confusion_matrix = confusion_matrix(y_test, y_predicted)
